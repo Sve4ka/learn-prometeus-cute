@@ -1,0 +1,3 @@
+
+test:
+	go test -v ./integration_test/...

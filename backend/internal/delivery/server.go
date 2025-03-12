@@ -25,7 +25,7 @@ func Start(db *sqlx.DB, log *log.Logs) {
 
 	routers.InitRouting(r, db, log, middlewareStruct)
 
-	if err := r.Run("0.0.0.0:8080"); err != nil {
+	if err := r.Run("0.0.0.0:8000"); err != nil {
 		panic(fmt.Sprintf("error running client: %v", err.Error()))
 	}
 }

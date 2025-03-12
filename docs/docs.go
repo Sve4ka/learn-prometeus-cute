@@ -220,7 +220,7 @@ const docTemplate = `{
                 "summary": "Get user",
                 "parameters": [
                     {
-                        "type": "integer",
+                        "type": "string",
                         "description": "UserID",
                         "name": "id",
                         "in": "path",

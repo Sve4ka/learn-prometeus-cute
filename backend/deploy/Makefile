@@ -36,4 +36,7 @@ logs:
 update:
 	$(GIT) pull
 
+test:
+	go test -v ../integration_test/...
+
 .PHONY: default start soft-restart hard-restart stop clean logs update
